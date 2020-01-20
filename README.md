@@ -5,6 +5,10 @@ A very simple implementation of a raytracer in Common Lisp (using SCBL as compil
 # Installation
 
  - Git clone the repository someplace know to quicklisp
- - Load the project via (ql:quickload :raytracer-gpu)
- - Change to the package with (in-package :raytracer-gpu)
- - initialize the variables with the demo via (init) and start with (start)
+ - Load the project via `(ql:quickload :raytracer-gpu)`
+ - Change to the package with `(in-package :raytracer-gpu)`
+ - initialize the variables with the demo via `(init)` and start with `(start)`
+
+# Demo image
+![Demo image](https://github.com/NobodysHero/Raytracer/blob/master/example.jpg?raw=true)
+
